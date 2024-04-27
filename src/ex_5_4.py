@@ -19,7 +19,6 @@ input_data = np.loadtxt(input_file)
 input_data[input_data<0] = 0
 np.savetxt(output_file, input_data)
 
-
 # Process the input data using numpy
 
-# Save the result to output_file
+# Save the result to output_file
